@@ -5,4 +5,4 @@ deployment:
   s3:
     branch: master
     commands:
-      - s3cmd sync * s3://codiustest.net/
+      - aws s3 sync * s3://codiustest.net/
