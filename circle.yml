@@ -8,4 +8,4 @@ deployment:
   s3:
     branch: master
     commands:
-      - aws s3 sync * s3://codiustest.net/
+      - aws s3 sync `pwd` s3://codiustest.net/
