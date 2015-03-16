@@ -1,3 +1,6 @@
+test:
+  override:
+    - echo "Its just a static page!"
 deployment:
   s3:
     branch: master
